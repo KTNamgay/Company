@@ -1,0 +1,172 @@
+/*top most topic*/
+#top {
+    border-style: double;
+    height: auto;
+    background-color: lavender;
+}
+
+
+#topic {
+    background-image: url("https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjE4MjY3M30");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    text-align: center;
+    color: #ffffff;
+    background-size: cover;
+
+}
+
+#topic-img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+/*body table*/
+table {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+
+}
+
+table,th,td {
+
+    border: 1px black solid;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+
+#body {
+    background-color: lightblue;
+}
+
+id#topic-img{
+    width: 300px;
+    height: 300px;
+    margin-right: 60px;
+    border-radius: 5%;
+    text-align: center;
+}
+img {
+   width: 300px;
+    height: 300px;
+    border-radius: 5%;
+  
+}
+
+div#box {
+    background-color: cadetblue;
+
+}
+
+section#beauty1 {
+    background-color: cornsilk;
+    width: 90%;
+    padding: 30px;
+    margin: 15px auto;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
+
+#ele {
+    background-color: antiquewhite;
+    width: 90%;
+    padding: 30px;
+    margin: 15px auto;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
+
+#clo {
+    background-color: lemonchiffon;
+    width: 90%;
+    padding: 30px;
+    margin: 15px auto;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
+
+h1 {
+    font-family: "Papyrus", fantasy;
+    animation-name: topic;
+    animation-delay: 0s;
+    animation-duration:5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5s;
+    
+}
+
+@keyframes topic{
+  0% {
+        transform: translateX(-80px) rotateY(180deg);
+      
+    }
+      100% {
+        transform: translateY(9px) rotateX(0deg);
+      
+    }
+     0%{ background-color: #4682CB;}
+    1%{ color: #00ff00; }1%{ color: #00ff00; }
+    10%{ color: #0000ff; }
+    20%{ color: goldenrod; }
+    30%{ color: green; }
+    40%{ color: deepskyblue; }
+    50%{ color: lightgray; }
+    60%{ color: wheat; }
+    70%{ color: seagreen; }
+    80%{ color: rosybrown; }
+    90%{ color: yellowgreen; }
+    100%{ color: #ffffff; }
+    
+}
+
+
+h2 {
+    text-align: center;
+   font-family: 'Shalimar', cursive;
+}
+h3 {
+  font-family: 'Comforter Brush', cursive;
+    text-decoration: underline;  
+}
+
+h4 {
+    font-family: 'Caveat', cursive;
+    color: #ffffff;
+    background-color: thistle;
+    position: relative;
+    top: 70px;
+}
+
+a:hover{
+    box-shadow:2px 2px 2px black; 
+}
+h5 {
+
+    text-align: center;
+    color: #001e1d;
+    font-size: 12px;
+    width: auto;
+    margin: 5px 0 0 0;
+    padding: 0;
+    font-family: 'Yellowtail', cursive;
+}
+
+p {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+select {
+  background-color: #ADD8E6;
+}
+footer {
+  text-decoration: underline;
+}
